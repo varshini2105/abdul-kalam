@@ -1,0 +1,77 @@
+*{
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color:bisque;
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 3rem;
+}
+header>.title{
+    font-size: 50px;
+    font-size-adjust: none;
+    text-align: center;
+    color: aliceblue;
+    background-color:darkred;
+}
+header>.description{
+    text-align: center;
+    font-size: 30px;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    margin:2rem 0px;
+    text-align: center;
+}
+.tribute{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 80rem;
+    margin: 0px auto;
+    background: black;
+    color:bisque;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+.tribute img{
+    max-width: 100%;
+}
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.bio>h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color: aqua;
+    text-align: center;
+    line-height: 1.2;
+}
+.bio>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.bio>hr{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
